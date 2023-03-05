@@ -30,7 +30,7 @@ const same2 = (firstArr, secondArr) => {
   return true;
 }
 
-console.log(same2([1, 2, 3, 1, 2, 3], [4, 1, 9, 4, 1, 9])) // true;
+console.log(same2([1, 2, 3], [4, 1, 9])) // true;
 console.log(same2([1, 2, 3], [1, 9])) //false;
 console.log(same2([1, 2, 1], [4, 4, 1])) // false (must be same frequency)
 
